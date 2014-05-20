@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html class='no-js'>
+  <head>
+    <meta charset='UTF-8' />
+    <title>SS Emoji v1.000</title>
+    <link rel="stylesheet" href="webfonts/ss-emoji.css">
+    <style>
+      body{background:#fff;color:#34343f;font-family:"Helvetica Neue", helvetica, sans-serif;font-size:16px;line-height:1.6;margin:0;}
+      h2{font-size:48px;font-weight:200;line-height:1;margin:.333em 0 0;}
+      h3{font-size:16px;font-weight:400;line-height:1.2;margin:4px 0 36px;}
+      a{color:#34343f;text-decoration:none;border-bottom:2px solid #ccc;}
+      a:hover,a:active{border-bottom:2px solid #3bc492;}
+      table{border-collapse:collapse;border-spacing:0;width:100%;}
+      table tr{border-top:2px solid #ddd;}
+      table td{padding-bottom:15px;padding-top:18px;vertical-align:top;}
+      .set{margin-bottom:84px;position:relative;}
+      .encode,.keyword{width:41.667%;}
+      .keyword a.note{color:#3bc492;border-bottom:none;}
+      .css,.keyword li{white-space:nowrap;}
+      .ss-icon{padding-left:0;width:16.667%;font-size:48px;-webkit-transition: all .4s ease-out;-moz-transition: all .4s ease-out;-ms-transition: all .4s ease-out;-o-transition: all .4s ease-out;transition: all .4s ease-out;}
+      .open .ss-icon{padding-left:18px;-webkit-transition: all .3s cubic-bezier(0,.8,.7,1.5);;-moz-transition: all .3s cubic-bezier(0,.8,.7,1.5);;-ms-transition: all .3s cubic-bezier(0,.8,.7,1.5);;-o-transition: all .3s cubic-bezier(0,.8,.7,1.5);;transition: all .3s cubic-bezier(0,.8,.7,1.5);}
+      .encode{font-size:16px;padding-right:20px;}
+      .unicode{color:rgba(55,55,63,.5);}
+      .off,button{color:#ddd;}
+      .views {position:absolute;top:5px;right:0;}
+      .toggle-list {color:#34343f;}
+      .toggle-list, .toggle-grid {font-size:32px;cursor:pointer;outline:0;border:0;background:none;width:auto!important;padding:0;}
+      p.note{font-size:16px;}
+      td ul{list-style:none;margin:0;padding:0;}
+      .wrapper{max-width:468px;margin:120px auto 132px;padding:0 6.25%;}
+      footer{background-color:#eee;color:rgba(52,52,63,.9);overflow:hidden;position:relative;font-size:16px;padding:60px 0 60px;}
+      footer ul{margin:0;padding:0;list-style:none;}
+      footer li{float:left;margin-right:1em;}
+      footer .copyright{float:right;margin:0;position:relative;}
+      footer span, footer span a{vertical-align:top;}
+      footer .wrapper{margin:auto;}
+      footer a{color:rgba(52,52,63,.9);border-bottom:2px solid #ccc;}
+      footer a:hover,footer a:active{color:rgba(52,52,63,.9);border-bottom:2px solid #3bc492;}
+      #placeholder {width:72px;}
+      body.grid .wrapper{max-width:80%;}
+      body.grid .toggle-list {color:#ddd;}
+      body.grid .toggle-grid {color:#34343f;}
+      body.grid table tr{display:block;float:left;width:auto;max-width:72px;cursor:pointer;height:78px;}
+      body.grid table {position:relative;}
+      body.grid .ss-icon{text-align:center;padding-right:0;width:72px;}
+      body.grid .encode, body.grid .keyword{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;}
+      body.grid tr.open{position:absolute;max-width:99em;height:auto;background:#eee;border-top:2px solid #3bc492;-webkit-border-bottom-right-radius:6px;-webkit-border-bottom-left-radius:6px;-moz-border-radius-bottomright:6px;-moz-border-radius-bottomleft:6px;-ms-border-radius-bottomright:6px;-ms-border-radius-bottomleft:6px;border-bottom-right-radius:6px;border-bottom-left-radius:6px;}
+      body.grid tr.open .encode, body.grid tr.open .keyword{clip:auto;height:auto;margin:0;overflow:visible;width:auto;position:static;padding:0 20px 20px;display:block;text-align:left;}
+      body.grid .open .keyword{top:70px;}
+      @media screen and (max-width:760px){.wrapper{margin-top:84px;}footer .wrapper{margin:auto;}}
+      @media screen and (max-width:540px){h2{font-size:32px;}.wrapper{width:432px;}}
+      .off,.on{cursor:pointer;}
+      ::-moz-selection{color:#fff;background:#3bc492;}
+      ::selection{color:#fff;background:#3bc492;}
+    </style>
+  </head>
+  <body>
+
+    <div class="wrapper centered">
+
+      <section class="set">
+        <h2>SS Emoji</h2>
+        <h3><span class="on">Beta</span></h3>
+
+
+        <table cellpadding="10px">
+        <tr>
+            <td class='ss-icon'>
+                &#x1F601;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-grin</li>
+                    <li class='unicode'>&amp;#x1F601;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>grin</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F602;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-joy</li>
+                    <li class='unicode'>&amp;#x1F602;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>joy</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F603;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-smiley</li>
+                    <li class='unicode'>&amp;#x1F603;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>smiley</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F604;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-smile</li>
+                    <li class='unicode'>&amp;#x1F604;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>smile</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F605;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-sweatsmile</li>
+                    <li class='unicode'>&amp;#x1F605;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>sweatsmile</li>
+                    <li>sweat smile</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F606;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-laughing</li>
+                    <li class='unicode'>&amp;#x1F606;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>laughing</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F609;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-wink</li>
+                    <li class='unicode'>&amp;#x1F609;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>wink</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F60A;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-blush</li>
+                    <li class='unicode'>&amp;#x1F60A;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>blush</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F60B;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-yum</li>
+                    <li class='unicode'>&amp;#x1F60B;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>yum</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F60C;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-relieved</li>
+                    <li class='unicode'>&amp;#x1F60C;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>relieved</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F60D;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-hearteyes</li>
+                    <li class='unicode'>&amp;#x1F60D;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>hearteyes</li>
+                    <li>heart eyes</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F60F;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-smirk</li>
+                    <li class='unicode'>&amp;#x1F60F;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>smirk</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F612;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-unamused</li>
+                    <li class='unicode'>&amp;#x1F612;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>unamused</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F613;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-sweat</li>
+                    <li class='unicode'>&amp;#x1F613;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>sweat</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F614;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-pensive</li>
+                    <li class='unicode'>&amp;#x1F614;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>pensive</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F616;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-confounded</li>
+                    <li class='unicode'>&amp;#x1F616;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>confounded</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F618;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-kissingheart</li>
+                    <li class='unicode'>&amp;#x1F618;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>kissingheart</li>
+                    <li>kissing heart</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F61A;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-kissingclosedeyes</li>
+                    <li class='unicode'>&amp;#x1F61A;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>kissingclosedeyes</li>
+                    <li>kissing closed eyes</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F61C;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-stuckouttonguewinkingeye</li>
+                    <li class='unicode'>&amp;#x1F61C;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>stuckouttonguewinkingeye</li>
+                    <li>stuck out tongue winking eye</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F61D;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-stuckouttongueclosedeyes</li>
+                    <li class='unicode'>&amp;#x1F61D;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>stuckouttongueclosedeyes</li>
+                    <li>stuck out tongue closed eyes</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F61E;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-disappointed</li>
+                    <li class='unicode'>&amp;#x1F61E;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>disappointed</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F620;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-angry</li>
+                    <li class='unicode'>&amp;#x1F620;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>angry</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F621;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-rage</li>
+                    <li class='unicode'>&amp;#x1F621;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>rage</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F622;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-cry</li>
+                    <li class='unicode'>&amp;#x1F622;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>cry</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F623;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-persevere</li>
+                    <li class='unicode'>&amp;#x1F623;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>persevere</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F624;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-triumph</li>
+                    <li class='unicode'>&amp;#x1F624;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>triumph</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F625;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-disappointedrelieved</li>
+                    <li class='unicode'>&amp;#x1F625;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>disappointedrelieved</li>
+                    <li>disappointed relieved</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F628;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-fearful</li>
+                    <li class='unicode'>&amp;#x1F628;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>fearful</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F629;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-weary</li>
+                    <li class='unicode'>&amp;#x1F629;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>weary</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F62A;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-sleepy</li>
+                    <li class='unicode'>&amp;#x1F62A;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>sleepy</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F62B;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-tiredface</li>
+                    <li class='unicode'>&amp;#x1F62B;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>tiredface</li>
+                    <li>tire dface</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F62D;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-sob</li>
+                    <li class='unicode'>&amp;#x1F62D;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>sob</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F630;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-coldsweat</li>
+                    <li class='unicode'>&amp;#x1F630;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>coldsweat</li>
+                    <li>cold sweat</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F631;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-scream</li>
+                    <li class='unicode'>&amp;#x1F631;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>scream</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F632;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-astonished</li>
+                    <li class='unicode'>&amp;#x1F632;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>astonished</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F633;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-flushed</li>
+                    <li class='unicode'>&amp;#x1F633;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>flushed</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F635;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-dizzyface</li>
+                    <li class='unicode'>&amp;#x1F635;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>dizzyface</li>
+                    <li>dizzy face</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F637;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-mask</li>
+                    <li class='unicode'>&amp;#x1F637;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>mask</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F619;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-kissingsmilingeyes</li>
+                    <li class='unicode'>&amp;#x1F619;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>kissingsmilingeyes</li>
+                    <li>kissing smiling eyes</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F611;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-expressionless</li>
+                    <li class='unicode'>&amp;#x1F611;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>expressionless</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F626;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-frowning</li>
+                    <li class='unicode'>&amp;#x1F626;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>frowning</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F636;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-nomouth</li>
+                    <li class='unicode'>&amp;#x1F636;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>nomouth</li>
+                    <li>no mouth</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F62E;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-openmouth</li>
+                    <li class='unicode'>&amp;#x1F62E;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>openmouth</li>
+                    <li>open mouth</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F60E;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-sunglasses</li>
+                    <li class='unicode'>&amp;#x1F60E;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>sunglasses</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F600;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-grinning</li>
+                    <li class='unicode'>&amp;#x1F600;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>grinning</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F61B;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-stuckouttongue</li>
+                    <li class='unicode'>&amp;#x1F61B;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>stuckouttongue</li>
+                    <li>stuck out tongue</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F627;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-anguished</li>
+                    <li class='unicode'>&amp;#x1F627;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>anguished</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F615;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-confused</li>
+                    <li class='unicode'>&amp;#x1F615;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>confused</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F607;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-innocent</li>
+                    <li class='unicode'>&amp;#x1F607;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>innocent</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F61F;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-worried</li>
+                    <li class='unicode'>&amp;#x1F61F;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>worried</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F617;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-kissing</li>
+                    <li class='unicode'>&amp;#x1F617;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>kissing</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F634;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-sleeping</li>
+                    <li class='unicode'>&amp;#x1F634;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>sleeping</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F62F;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-hushed</li>
+                    <li class='unicode'>&amp;#x1F62F;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>hushed</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F62C;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-grimacing</li>
+                    <li class='unicode'>&amp;#x1F62C;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>grimacing</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F610;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-neutralface</li>
+                    <li class='unicode'>&amp;#x1F610;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>neutralface</li>
+                    <li>neutral face</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class='ss-icon'>
+                &#x1F4A9;
+            </td>
+            <td class='encode'>
+                <ul>
+                    <li class='css'>.ss-poo</li>
+                    <li class='unicode'>&amp;#x1F4A9;</li>
+                </ul>
+            </td>
+            <td class='keyword'>
+                <ul>
+                    <li>poo</li>
+                    <li>poop</li>
+                </ul>
+            </td>
+        </tr>
+        </table>
+
+
+      </section>
+
+
+    </div>
+    <footer>
+      <div class="wrapper">
+        <nav>
+          <ul>
+            <li>
+              <a href="http://symbolset.com">Symbolset</a>
+            </li>
+            <li>
+              <a href="http://symbolset.com/license">License</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="copyright">
+          <span>
+            Copyright © 2014
+            <a href="http://oak.is" target="_blank">Oak Studios LLC</a>
+          </span>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      try {
+        (function(){
+          // Select unicode values onclick.
+          function c(e){e.stopPropagation();if(document.body.createTextRange){var a=document.body.createTextRange();a.moveToElementText(this);a.select()}else if(window.getSelection){var b=window.getSelection(),a=document.createRange();a.selectNodeContents(this);b.removeAllRanges();b.addRange(a)}}for(var b=Array.prototype.slice.call(document.getElementsByClassName("unicode")),l=Array.prototype.slice.call(document.getElementsByTagName("li")),a=Array.prototype.slice.call(document.getElementsByClassName("css")),b=b.concat(a),b=b.concat(l),a=b.length-1;0<=a;a--)b[a].addEventListener("click",c,!1);
+
+          // Helpers
+          function hasClass(elem, classname) {
+            var regexp = new RegExp('\\b' + classname + '\\b', 'g')
+            return elem.className.match(regexp)
+          }
+          function addClass(elem, classname) {
+            if (hasClass(elem, classname)) return
+            elem.className = elem.className + ' ' + classname
+            elem.className = elem.className.replace(/^\s+|\s+$/g, '')
+          }
+          function removeClass(elem, classname) {
+            if (!hasClass(elem, classname)) return
+            elem.className = elem.className.replace(classname, '')
+          }
+
+        })();
+      } catch(err) {}
+    </script>
+  </body>
+</html>
