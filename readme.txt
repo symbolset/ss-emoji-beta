@@ -7,7 +7,7 @@ SS Emoji is a trademark of Oak Studios LLC in the United States and/or other cou
 ---
 
 
-SS Emoji Beta v1.000
+SS Emoji Beta v0.001
 
 
 --------------------
